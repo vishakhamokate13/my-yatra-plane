@@ -2,7 +2,7 @@
     flex-direction: row;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; 
     
 }
 .website-name{
@@ -13,12 +13,17 @@
 
 
 .main-logo-img{
-    height: 90px;
-    width: 90px;
+    height: 150px;
+    width: 150px;
     }
     
 .img-container{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
 }
