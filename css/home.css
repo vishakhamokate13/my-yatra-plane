@@ -1,34 +1,9 @@
-.main-container{
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    
-}
-.website-name{
-    font-weight: 800;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
-     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+.main-hero-seation{
+    background-image: url(./../images/ujjain.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 0.8;
+    inset: 0;
 
-
-.main-logo-img{
-    
-    }
-    
-.img-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.nav-menu{
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-}
-.menu{
-    text-decoration: none;
-    color: black;
-    font-weight: 1000;
-    font-size: 15px;
 }
