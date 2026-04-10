@@ -3,9 +3,10 @@
   <head>
     <title>Home</title>
     <link rel="stylesheet" href="./../css/style.css" />
-    <link rel="stylesheet" href="./../css/destinations.css" />
+    <link rel="stylesheet" href="./../css/plan_trip.css" />
     <link rel="stylesheet" href="./../css/navbar.css" />
     <link rel="stylesheet" href="./../css/footer.css">
+    <link rel="stylesheet" href="./../css/plane_trip.css">
   </head>
 
   <body>
@@ -14,8 +15,8 @@
       <div class="main-container">
         <div class="img-container">
           <img
-            src="./../images/plan_my_yatra_logo.svg"
-            alt="logo"
+            src="./../images/main-logo.svg"
+            alt="logo" height="70px"
             class="main-logo-img"
           />
           <h1 class="website-name">
@@ -26,7 +27,7 @@
         <div class="nav-menu">
           <a href="./../index.html" class="menu">Home</a>
           <a href="./../pages/destination.html" class="menu">Destinations</a>
-          <a href="./../pages/plan_trip.html" class="menu">Plan Trip</a>
+          <a href="./../pages/plane_trip.html" class="menu">Plan Trip</a>
           <a href="./../pages/about.html" class="menu">About</a>
           <a href="./../pages/contact.html" class="menu">Contact</a>
         </div>
@@ -35,99 +36,86 @@
           <a href="./../pages/login.html" class="menu">Login</a>
           <a href="./../pages/signup.html" class="menu">Sign Up</a>
         </div>
-    </div>
+      </div>
+       <div class="container">
 
-         <h1 class="main-heading">Explore Destinations</h1>
-    <p class="sub-heading">From peaceful beaches to breathtaking mountains, explore a variety of
-        destinations that offer unforgettable experiences. <br>
-        <br>Plan your perfect
-        trip with us and make memories that last a lifetime.</p>
+        <h1>Plan Your Trip</h1>
+        <p class="sub">Fill the details and plan your perfect journey</p>
 
-    <!-- Card Container -->
-    <div class="card-container">
+        <form>
 
-        <div class="card">
-            <img src="./../images/goa2.jpg">
-            <h3>Goa</h3>
-            <p>Beaches & nightlife</p>
-            <a href="./../pages/plan_trip.html" class="btn">Book Now</a>
-        </div>
+            <!-- Destination -->
+            <label>Destination</label>
+            <select>
+                <option>Select Destination</option>
+                <option>Goa</option>
+                <option>Manali</option>
+                <option>Kashmir</option>
+                <option>Jaipur</option>
+            </select>
 
-        <div class="card">
-            <img src="./../images/manali.jpg">
-            <h3>Manali</h3>
-            <p>Snowy mountains</p>
-            <a href="./../pages/plan_trip.html" class="btn">Book Now</a>
-        </div>
+            <!-- Dates -->
+            <label>Travel Dates</label>
+            <div class="row">
+                <input type="date">
+                <input type="date">
+            </div>
 
-        <div class="card">
-            <img src="./../images/jaipur.jpg">
-            <h3>Jaipur</h3>
-            <p>Royal heritage</p>
-            <a href="./../pages/plan_trip.html" class="btn">Book Now</a>
-        </div>
+            <!-- Travelers -->
+            <label>Travelers</label>
+            <div class="row">
+                <input type="number" placeholder="Adults">
+                <input type="number" placeholder="Children">
+            </div>
 
-        <div class="card">
-            <img src="./../images/kashmir.jpg">
-            <h3>Kashmir</h3>
-            <p>Paradise on earth</p>
-            <a href="./../pages/plan_trip.html" class="btn">Book Now</a>
-        </div>
+            <!-- Budget -->
+            <label>Budget</label>
+            <select>
+                <option>Select Budget</option>
+                <option>Low</option>
+                <option>Medium</option>
+                <option>High</option>
+            </select>
 
-        <div class="card">
-            <img src="./../images/kerala.jpg">
-            <h3>Kerala</h3>
-            <p>Backwaters & nature</p>
-            <a href="./../pages/plan_trip.html" class="btn">Book Now</a>
-        </div>
+            <!-- Travel Type -->
+            <label>Travel Type</label>
+            <select>
+                <option>Select Type</option>
+                <option>Solo</option>
+                <option>Family</option>
+                <option>Friends</option>
+            </select>
 
-        <div class="card">
-            <img src="./../images/ladakh.jpg">
-            <h3>Ladakh</h3>
-            <p>Adventure & mountains</p>
-            <a href="./../pages/plan_trip.html" class="btn">Book Now</a>
-        </div>
+            <!-- Extras -->
+            <label>Extras</label>
+            <div class="check">
+                <label><input type="checkbox"> Hotel</label>
+                <label><input type="checkbox"> Transport</label>
+                <label><input type="checkbox"> Guide</label>
+            </div>
 
-        <div class="card">
-            <img src="./../images/uadipur2.jpg">
-            <h3>Udaipur</h3>
-            <p>City of lakes</p>
-            <a href="./../pages/plan_trip.html" class="btn">Book Now</a>
-        </div>
+            <!-- Contact -->
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name">
 
-        <div class="card">
-            <img src="./../images/rishikesh.jpg">
-            <h3>Rishikesh</h3>
-            <p>Yoga & rafting</p>
-            <a href="./../pages/plan_trip.html" class="btn">Book Now</a>
-        </div>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
 
-        <div class="card">
-            <img src="./../images/andaman.jpg">
-            <h3>Andaman</h3>
-            <p>Island beauty</p>
-            <a href="./../pages/plan_trip.html" class="btn">Book Now</a>
-        </div>
+            <!-- Button -->
+            <button type="submit">My Yatra Plane</button>
 
-        <div class="card">
-            <img src="./../images/darjelling.jpg">
-            <h3>Darjeeling</h3>
-            <p>Tea gardens</p>
-            <a href="./../pages/plan_trip.html" class="btn">Book Now</a>
-        </div>
+        </form>
 
     </div>
-</div> 
-
-      <!-- main logo n heading -->
+ <!-- main logo n heading -->
        <div class="footer-main-container">
           <div class="footer-menu-container">
 
         <div class="footer-child-item-1">
               <div class="img-container">
                <img
-               src="./../images/plan_my_yatra_logo.svg"
-                alt="logo"
+               src="./../images/main-logo.svg"
+                alt="logo" height="70px"
                class="main-logo-img" />
           <h1 class="website-name">
             Plan My <span style="color: #e6501b">Yatra</span> </h1>
@@ -154,9 +142,9 @@
           <div class="footer-child-item">
             <h3>Top Destinations</h3>
               <ul>
-              <li><a class="footer-links" href="#">Agra</a></li>
+              <li><a class="footer-links" href="#">Ujjain</a></li>
               <li><a class="footer-links" href="#">Jaipur</a></li>
-              <li><a class="footer-links" href="#">Gao</a></li>
+              <li><a class="footer-links" href="#">Goa</a></li>
               <li><a class="footer-links" href="#">Kerala</a></li>
               <li><a class="footer-links" href="#">Rajsthan</a></li>
               </ul>
