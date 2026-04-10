@@ -1,0 +1,148 @@
+.main-hero-section {
+    background-color: #F3E4C9;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+}
+.main-content {
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.highlighted-main-content {
+    color: #FAB95B;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.highlighted-text {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.sub-content {
+    font-size: 70px;
+    color: #E6501B;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.heading-1 {
+    color: white;
+}
+
+.main-info {
+    color: white;
+    font-size: 20px;
+    width: 800px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-info {
+    /* width: 100%; */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-top-info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.card-name {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.card-prize {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    /* padding-right: 30px; */
+}
+
+.card-bottom-info {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 400;
+}
+
+.btn-book {
+    background-color: #E6501B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+/* Container */
+.signup-container {
+    width: 320px;
+    background: white;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.signup-container h1 {
+    margin-bottom: 10px;
+}
+
+.sub {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+/* Extra */
+.extra {
+    margin-top: 15px;
+}
+
+.extra a {
+    color: orange;
+    text-decoration: none;
+}
