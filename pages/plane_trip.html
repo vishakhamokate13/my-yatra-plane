@@ -1,113 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Home</title>
-    <link rel="stylesheet" href="./../css/style.css" />
-    <link rel="stylesheet" href="./../css/plan_trip.css" />
-    <link rel="stylesheet" href="./../css/navbar.css" />
-    <link rel="stylesheet" href="./../css/footer.css">
-    <link rel="stylesheet" href="./../css/about.css">
-  </head>
 
-  <body>
-    <div class="main-hero-section">
-      <!-- Navbar -->
-      <div class="main-container">
-        <div class="img-container">
-          <img
-            src="./../images/main-logo.svg"
-            alt="logo" height="70px"
-            class="main-logo-img"
-          />
-          <h1 class="website-name">
-            Plan My <span style="color: #e6501b">Yatra</span>
-          </h1>
-        </div>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="./../css/style.css">
+  <link rel="stylesheet" href="./../css/home.css">
+  <link rel="stylesheet" href="./../css/navbar.css">
+  <link rel="stylesheet" href="./../css/footer.css">
+  <link rel="stylesheet" href="./../css/plane_trip.css">
 
-        <div class="nav-menu">
-          <a href="./../index.html" class="menu">Home</a>
-          <a href="./../pages/destination.html" class="menu">Destinations</a>
-          <a href="./../pages/plane_trip.html" class="menu">Plan Trip</a>
-          <a href="./../pages/about.html" class="menu">About</a>
-          <a href="./../pages/contact.html" class="menu">Contact</a>
-        </div>
+</head>
 
-        <div class="nav-menu">
-          <a href="./../pages/login.html" class="menu">Login</a>
-          <a href="./../pages/signup.html" class="menu">Sign Up</a>
-        </div>
+<body>
+       <div class="main-hero-seation">
+
+    <!-- navbaar -->
+    <div class="main-container">
+      <div class="img-container">
+        <img src="./../images/main-logo.svg" alt="" class="main-logo-img" height="70px" />
+        <h2 class="website-name">My <span>Yatra</span> Plane</h2>
       </div>
-       <div class="container">
 
-        <h1>Plan Your Trip</h1>
-        <p class="sub">Fill the details and plan your perfect journey</p>
+      <div cla ss="nav-menu">
+        <a href="./../index.html" class="menu">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./../pages/destinations.html" class="menu">Destinations</a>&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
+        <a href="./../pages/plane_trip.html" class="menu">Plane Trip</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./../pages/about.html" class="menu">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./../pages/contact.html" class="menu">Contact</a>
+      </div>
 
-        <form>
-
-            <!-- Destination -->
-            <label>Destination</label>
-            <select>
-                <option>Select Destination</option>
-                <option>Goa</option>
-                <option>Manali</option>
-                <option>Kashmir</option>
-                <option>Jaipur</option>
-            </select>
-
-            <!-- Dates -->
-            <label>Travel Dates</label>
-            <div class="row">
-                <input type="date">
-                <input type="date">
-            </div>
-
-            <!-- Travelers -->
-            <label>Travelers</label>
-            <div class="row">
-                <input type="number" placeholder="Adults">
-                <input type="number" placeholder="Children">
-            </div>
-
-            <!-- Budget -->
-            <label>Budget</label>
-            <select>
-                <option>Select Budget</option>
-                <option>Low</option>
-                <option>Medium</option>
-                <option>High</option>
-            </select>
-
-            <!-- Travel Type -->
-            <label>Travel Type</label>
-            <select>
-                <option>Select Type</option>
-                <option>Solo</option>
-                <option>Family</option>
-                <option>Friends</option>
-            </select>
-
-            <!-- Extras -->
-            <label>Extras</label>
-            <div class="check">
-                <label><input type="checkbox"> Hotel</label>
-                <label><input type="checkbox"> Transport</label>
-                <label><input type="checkbox"> Guide</label>
-            </div>
-
-            <!-- Contact -->
-            <label>Name</label>
-            <input type="text" placeholder="Enter your name">
-
-            <label>Email</label>
-            <input type="email" placeholder="Enter your email">
-
-            <!-- Button -->
-            <button type="submit">My Yatra Plane</button>
-
-        </form>
+      <div class="nav-menu">
+        <a href="./../pages/login.html" class="menu">Login</a>
+        <a href="./../pages/signup.html" class="menu">Sign Up</a>
+      </div>
 
     </div>
- <!-- main logo n heading -->
+
+
+    <section class="facts-section">
+
+<h2 class="facts-title">Our Travel Facts</h2>
+
+<div class="facts-container">
+
+<div class="fact-card">
+<h1>500+</h1>
+<p>Happy Travelers</p>
+</div>
+
+<div class="fact-card">
+<h1>120+</h1>
+<p>Destinations</p>
+</div>
+
+<div class="fact-card">
+<h1>300+</h1>
+<p>Trips Completed</p>
+</div>
+
+<div class="fact-card">
+<h1>50+</h1>
+<p>Travel Guides</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- footer -->
+
+      <!-- main logo n heading -->
        <div class="footer-main-container">
           <div class="footer-menu-container">
 
@@ -115,7 +81,7 @@
               <div class="img-container">
                <img
                src="./../images/main-logo.svg"
-                alt="logo" height="70px"
+                alt="main-logo" height="70px"
                class="main-logo-img" />
           <h1 class="website-name">
             Plan My <span style="color: #e6501b">Yatra</span> </h1>
@@ -144,7 +110,7 @@
               <ul>
               <li><a class="footer-links" href="#">Ujjain</a></li>
               <li><a class="footer-links" href="#">Jaipur</a></li>
-              <li><a class="footer-links" href="#">Goa</a></li>
+              <li><a class="footer-links" href="#">Gao</a></li>
               <li><a class="footer-links" href="#">Kerala</a></li>
               <li><a class="footer-links" href="#">Rajsthan</a></li>
               </ul>
@@ -153,13 +119,13 @@
           <div class="footer-child-item">
             <h3>Contact Us</h3>
            <div class="email-box">
-            <a class="footer-links" href="mailto:pratikshashinde2622@gmail.com">
-           <img src="./../images/gmail-logo.png" alt="logo" width="35px">
+            <a class="footer-links" href="mailto:vishakhamokate2005@gmail.com">
+           <img src="./../images/gmail.svg" alt="logo" width="35px">
     </a>
 </div>
            <div class="email-box">
-            <a class="footer-links" href="tel:+919595527262">
-           <img src="./../images/call-logo.png" alt="logo" width="35px">
+            <a class="footer-links" href="tel:+919527283794">
+           <img src="./../images/call.svg" alt="logo" width="35px">
     </a>
 </div>
                     <div class="email-box">
@@ -172,7 +138,11 @@
           </div>
 
        </div>
+  
+ 
 
 
-    </body>  
-    </html>      
+
+</body>
+
+</html>
