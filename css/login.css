@@ -1,105 +1,91 @@
-.main-hero-section {
-    background-color: #F3E4C9;
+.main-hero-seation {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7)),
+        url(./../images/ujjain.jpg);
     background-size: cover;
     background-position: center;
-    /* height: 100vh; */
+    height: 100vh;
+
+}
+.main-content{
+    margin-left: 3%;
+    margin-top: 35px;
+
+}
+/* Page background */
+
+.login-section{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:white;
 }
 
-.main-content {
-    margin-left: 6%;
-    margin-top: 50px;
+/* Login box */
+
+.login-box{
+width:350px;
+background:white;
+padding:35px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,0.15);
+text-align:center;
 }
 
-.highlighted-main-content {
-    color: #FAB95B;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
-}
+/* Title */
 
-.highlighted-text {
-    padding-right: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-}
-
-
-.sub-content {
-    font-size: 70px;
-    color: #E6501B;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 900;
-    margin-bottom: 30px;
-}
-
-.heading-1 {
-    color: white;
-}
-
-.main-info {
-    color: white;
-    font-size: 20px;
-    width: 800px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-
-/* Container */
-.login-container {
-    width: 300px;
-    background: white;
-    margin: 80px auto;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-/* Heading */
-.login-container h1 {
-    margin-bottom: 10px;
-}
-
-.sub {
-    color: gray;
-    margin-bottom: 20px;
+.login-title{
+margin-bottom:25px;
+font-size:28px;
+color:#e6501b;
 }
 
 /* Inputs */
-input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+
+.input-group input{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:15px;
 }
 
 /* Button */
-button {
-    width: 100%;
-    margin-top: 15px;
-    padding: 10px;
-    background: #E6501B;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
+
+.login-btn{
+width:100%;
+padding:12px;
+border:none;
+background:#e6501b;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
 }
 
-button:hover {
-    background: darkorange;
+.login-btn:hover{
+background:#c43c0e;
 }
 
-/* Extra */
-.extra {
-    margin-top: 15px;
+/* Signup */
+
+.signup-text{
+margin-top:15px;
+font-size:14px;
 }
 
-.extra a {
-    color: orange;
-    text-decoration: none;
+.signup-text a{
+color:#e6501b;
+text-decoration:none;
 }
+
+
+
+
+    
+
+
+
+
+    
